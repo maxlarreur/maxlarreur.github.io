@@ -5,92 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Larreur Wildlife Research | Home</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    /* Inline CSS for demonstration; move to style.css in production */
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      height: 100%;
-    }
-    /* Full-screen header with background image */
-    .header {
-      position: relative;
-      height: 100vh;
-      background: url('image/RF_log.JPG') no-repeat center center/cover;
-      color: #fff;
-    }
-    /* Navigation Bar */
-    nav {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: 100;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 10px 0;
-    }
-    nav ul li {
-      margin: 0 20px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 5px 0;
-    }
-    nav ul li a.active {
-      border-bottom: 2px solid #fff;
-    }
-    /* Hero Text */
-    .hero-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.4);
-      border-radius: 5px;
-    }
-    .hero-text h1 {
-      font-size: 48px;
-      margin: 0 0 20px 0;
-    }
-    .hero-text p {
-      font-size: 20px;
-      margin: 0 0 20px 0;
-    }
-    .cta-button {
-      display: inline-block;
-      padding: 12px 25px;
-      background: #e8491d;
-      color: #fff;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 5px;
-      transition: background 0.3s ease;
-    }
-    .cta-button:hover {
-      background: #cf3e15;
-    }
-    /* Footer styling */
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #35424a;
-      color: #fff;
-    }
-  </style>
 </head>
 <body>
-  <header class="header" id="header05-1">
+  <!-- Hero Header Section -->
+  <header class="hero">
     <nav>
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
@@ -100,17 +18,27 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <div class="hero-text">
+    <div class="hero-content">
       <h1>Advancing Wildlife Research</h1>
       <p>Exploring wildlife behavior and conservation through innovative research and data-driven insights.</p>
       <a class="cta-button" href="research.html">Discover Our Work</a>
     </div>
   </header>
+
   <main>
-    <!-- You can add additional content sections here -->
+    <section class="welcome">
+      <h2>Welcome</h2>
+      <p>
+        I am a PhD student within the Center for Wildlife Sustainability Research at Southern Illinois University - Carbondale.
+        Here you will find details about some of my past and ongoing research, publications, CV, and contact information.
+        My research is geared toward increasing our knowledge on wildlife spatiotemporal behavior.
+      </p>
+    </section>
   </main>
+
   <footer>
-    <p>&copy; 2025 Larreur Wildlife Research. All rights reserved.</p>
+    <p>&copy; 2025 Wildlife Research. All rights reserved.</p>
   </footer>
 </body>
 </html>
+
