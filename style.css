@@ -56,3 +56,54 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+/* Hero Section for Home Page */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('image/RF_log.JPG') no-repeat center center/cover;
+  color: #fff;
+}
+
+/* Optional: Adjust navigation background in the hero section */
+.hero nav {
+  background: rgba(232, 73, 29, 0.8); /* Slightly transparent version of #e8491d */
+}
+
+/* Hero Content */
+.hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); /* Optional overlay for better text readability */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.hero .hero-content h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.hero .hero-content p {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+/* Call-to-Action Button */
+.hero .cta-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #e8491d;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.hero .cta-button:hover {
+  background: #cf3e15;
+}
