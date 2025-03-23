@@ -168,7 +168,7 @@ Old About Me Section (Centered Box) - Commented Out
   display: flex;
   align-items: center;
   gap: 20px;
-  /* Removed background, padding, and box-shadow for a clean layout */
+  /* No background, padding, or box-shadow so it blends with the page */
 }
 
 .about-text {
