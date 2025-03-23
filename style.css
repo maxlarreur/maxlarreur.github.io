@@ -139,7 +139,7 @@ footer {
 /* Research Section Styles */
 .research-section {
   display: flex;
-  align-items: flex-start;
+  align-items: center;  /* vertically centers both text and image */
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -149,18 +149,17 @@ footer {
 }
 
 .research-image {
-  flex: 1.5; /* Increased flex value for a larger image container */
-  text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center; /* horizontally center the image */
+  align-items: center;     /* vertically center the image */
 }
 
 .research-image img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  display: block;
-  margin: 0 auto; /* Centers the image within its container */
 }
-
 
 /* About Me Wrapper – Full-Width Grid Layout */
 .about-me-wrapper {
