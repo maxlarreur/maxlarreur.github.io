@@ -138,11 +138,11 @@ Old About Me Section (Centered Box) - Commented Out
 }
 */
 
-/* New About Me Wrapper – Full-Width Grid Layout */
+/* About Me Wrapper – Full-Width Grid Layout */
 .about-me-wrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;  /* Left extras, center content, right extras */
+  grid-template-columns: 1fr auto 1fr;  /* left extras, center content, right extras */
   align-items: center;
   margin: 20px 0;
 }
@@ -152,7 +152,7 @@ Old About Me Section (Centered Box) - Commented Out
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: flex-start; /* Align to left edge */
+  align-items: flex-start; /* aligns photos to the left */
   padding-left: 10px;
 }
 
@@ -164,10 +164,10 @@ Old About Me Section (Centered Box) - Commented Out
 
 /* Center About Me Content – No box styling */
 .about-me {
-  /* Removing background, padding, and box-shadow */
   display: flex;
   align-items: center;
   gap: 20px;
+  /* Removed background, padding, and box-shadow for a clean layout */
 }
 
 .about-text {
@@ -188,7 +188,7 @@ Old About Me Section (Centered Box) - Commented Out
 /* Right Extras: Video */
 .right-extras {
   display: flex;
-  justify-content: flex-end; /* Align to right edge */
+  justify-content: flex-end; /* aligns video to the right */
   padding-right: 10px;
 }
 
@@ -197,6 +197,7 @@ Old About Me Section (Centered Box) - Commented Out
   height: auto;
   border-radius: 5px;
 }
+
 
 /* Research Section Styles */
 section.research-section {
