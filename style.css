@@ -158,3 +158,40 @@ footer {
   height: auto;
   border-radius: 5px;
 }
+
+/* About Me Section - Updated for 3 Columns */
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px; /* Adjust width as needed */
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-video {
+  flex: 1;
+  text-align: center;
+}
+
+/* Ensure images and video fit their containers */
+.about-left img,
+.about-video video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
