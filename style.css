@@ -136,6 +136,7 @@ Old About Me Section (Centered Box) - Commented Out
   height: auto;
   border-radius: 5px;
 }
+-------------------------------------------------
 */
 
 /* About Me Wrapper – Full-Width Grid Layout */
@@ -198,7 +199,6 @@ Old About Me Section (Centered Box) - Commented Out
   border-radius: 5px;
 }
 
-
 /* Research Section Styles */
 section.research-section {
   display: flex;
@@ -223,3 +223,4 @@ section.research-section .research-image img {
   height: auto;
   border-radius: 5px;
 }
+
