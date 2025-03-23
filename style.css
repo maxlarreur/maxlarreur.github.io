@@ -137,29 +137,30 @@ footer {
 }
 
 /* Research Section Styles */
-.research-section {
+section.research-section {
   display: flex;
   align-items: center;  /* vertically centers both text and image */
   gap: 20px;
   margin-bottom: 40px;
 }
 
-.research-text {
+section.research-section .research-text {
   flex: 2;
 }
 
-.research-image {
+section.research-section .research-image {
   flex: 1;
   display: flex;
   justify-content: center; /* horizontally center the image */
   align-items: center;     /* vertically center the image */
 }
 
-.research-image img {
+section.research-section .research-image img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
 }
+
 
 /* About Me Wrapper – Full-Width Grid Layout */
 .about-me-wrapper {
