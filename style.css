@@ -162,38 +162,70 @@ footer {
 }
 
 
-/* About Me Section - Updated for 3 Columns */
+/* About Me Wrapper – Full-Width Grid Layout */
+.about-me-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;  /* Left extras, fixed-width center, right extras */
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Center About Me Box */
+.center-about {
+  /* Set the width of your centered about-me box (adjust as needed) */
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* About Me Box (Existing styles preserved) */
 .about-me {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 20px;
-  max-width: 1000px; /* Adjust width as needed */
-  margin: 20px auto;
   background: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.about-left {
+.about-me .about-text {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
-.about-text {
-  flex: 2;
-}
-
-.about-video {
+.about-me .about-image {
   flex: 1;
   text-align: center;
 }
 
-/* Ensure images and video fit their containers */
-.about-left img,
-.about-video video {
+.about-me .about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Left Extras: Two stacked photos */
+.left-extras {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start; /* Align left */
+  padding-left: 10px; /* Optional: add some padding to the extreme left */
+}
+
+.left-extras img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Right Extras: Video */
+.right-extras {
+  display: flex;
+  justify-content: flex-end; /* Align right */
+  padding-right: 10px; /* Optional: add some padding to the extreme right */
+}
+
+.right-extras video {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
