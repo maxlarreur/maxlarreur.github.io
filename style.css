@@ -136,3 +136,25 @@ footer {
   border-radius: 5px;
 }
 
+/* Research Section Styles */
+.research-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.research-text {
+  flex: 2;
+}
+
+.research-image {
+  flex: 1;
+  text-align: center;
+}
+
+.research-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
