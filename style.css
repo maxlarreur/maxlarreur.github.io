@@ -149,7 +149,7 @@ footer {
 }
 
 .research-image {
-  flex: 1;
+  flex: 1.5; /* Increased flex value for a larger image container */
   text-align: center;
 }
 
@@ -157,7 +157,10 @@ footer {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto; /* Centers the image within its container */
 }
+
 
 /* About Me Section - Updated for 3 Columns */
 .about-me {
