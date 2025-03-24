@@ -155,7 +155,8 @@ Old About Me Section (Centered Box) - Commented Out
   gap: 10px;
   align-items: flex-start; /* aligns photos to the left */
   padding-left: 10px;
-  min-width: 150px;  /* ensure the left column has a minimum width */
+  min-width: 200px;  /* increased size for extra photos */
+  margin-right: 48px; /* adds about 0.5" (48px) space between left extras and center */
 }
 
 .left-extras img {
@@ -182,7 +183,7 @@ Old About Me Section (Centered Box) - Commented Out
 }
 
 .about-image img {
-  max-width: 80%;  /* decreased size for the conference.jpg image */
+  max-width: 60%;  /* decreased the size by 25% (from 80% to 60%) */
   height: auto;
   border-radius: 5px;
 }
@@ -192,7 +193,7 @@ Old About Me Section (Centered Box) - Commented Out
   display: flex;
   justify-content: flex-end; /* aligns video to the right */
   padding-right: 10px;
-  min-width: 150px;  /* ensure the right column has a minimum width */
+  min-width: 200px;  /* increased size for the video container */
 }
 
 .right-extras video {
